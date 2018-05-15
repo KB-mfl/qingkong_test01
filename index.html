@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>科比说</title>
+    <link rel="stylesheet" type="text/css" href="飞碟说1.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(function () {
+            $(".box ol li").hover(function () {
+                $(".box ul li").eq(0).show();
+                $(this).addClass('lunbotu').siblings().removeClass('lunbotu');
+                var index=$(this).index()
+               //alert(index)
+                $(".box ul li").eq(index).fadeIn(300).siblings().fadeOut(300)
+            })
+        })
+    </script>
+</head>
+<body>
+      <div id="feidieshuo">
+          <img src="屏幕快照%202018-01-27%20下午9.24.00.png">
+      </div>
+      <input id="sousuo" placeholder="搜索"></input>
+      <div>
+          <button id="sousuo-photo">搜索</button>
+      </div>
+      <button id="denglu" type="button">登录</button>
+      <div class="box">
+          <ul>
+              <li><img src="罗德曼.jpg"class="tupian" alt="罗德曼"></li>
+              <li><img src="mj.jpg" class="tupian" alt="乔丹"></li>
+              <li><img src="dengken.jpg" class="tupian" alt="科比"></li>
+              <li><img src="艾弗森.jpg" class="tupian" alt="艾弗森"></li>
+          </ul>
+          <ol class="lunbotu">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+          </ol>
+      </div>
+      <div id="header1">
+          <div id="header2"></div>
+          <div id="header3">
+              <a href="http://www.feidieshuo.com">首页</a>
+          </div>
+          <div id="header4">
+              <a href="http://www.feidieshuo.com">频道</a>
+          </div>
+          <div id="table">
+              <table>
+                  <tr>
+                      <td><a href="http://www.feidieshuo.com">飞碟说</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟一分钟</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟唱</a></td>
+                  </tr>
+                  <tr>
+                      <td><a href="http://www.feidieshuo.com">飞碟实验室</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟冷知识</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟啪</a></td>
+                  </tr>
+                  <tr>
+                      <td><a href="http://www.feidieshuo.com">宝贝课堂</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟词库</a></td>
+                      <td><a href="http://www.feidieshuo.com">飞碟爱美丽</a></td>
+                  </tr>
+              </table>
+          </div>
+          <div id="header5">
+              <a href="http://www.feidieshuo.com">申请联名信用卡</a>
+              <div id="header6"></div>
+          </div>
+      </div>
+
+      <img src="微信扫码.png" id="wechat">
+      <div class="video">
+          <img src="wonderful_video.png">
+      </div>
+      <p id="shipin">精彩视频</p>
+      <div class="content">
+          <a href="http://www.feidieshuo.com"><img src="mj.jpg" class="mj" ></a>
+          <a href="http://www.feidieshuo.com"><img src="dengken.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="皮蓬.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="斯托克顿.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="哈达威.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="米勒.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="张伯伦.jpg" class="mj"></a>
+          <a href="http://www.feidieshuo.com"><img src="艾弗森.jpg" class="mj"></a>
+      </div>
+      <div class="footer1">
+          <div>
+              <img src="罗德曼.jpg" class="footer2">
+          </div>
+          <div class="footer3">
+              <a href="http://www.feidieshuo.com/about#section-1">关于我们</a>
+              <span>.</span>
+              <a href="http://www.feidieshuo.com/about#section-2">诚聘英才</a>
+              <span>.</span>
+              <a href="http://www.feidieshuo.com/about#section-3">联系我们</a>
+              <span>.</span>
+              <a href="http://www.feidieshuo.com/about#section-4">版权申明</a>
+              <span>.</span>
+              <a href="http://www.feidieshuo.com/about#section-5">联系我们</a>
+          </div>
+          <h1 class="footer4">
+              飞碟说 知识从未如此性感
+          </h1>
+          <p class="footer5">
+              ©2012-2016 飞碟视界传媒科技(上海)有限公司 保留所有权利
+          </br>
+              <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备15001400-1号</a>
+          </br>
+              广播电视节目制作经营许可证编号:(沪)字第1370号
+          </p>
+
+      </div>
+</body>
+</html>
