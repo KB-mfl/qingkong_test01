@@ -1,0 +1,237 @@
+#feidieshuo{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+#sousuo{
+    float: left;
+    width: 200px;
+    height: 36px;
+    border: solid 3px #2886db ;
+    position: absolute;
+    right:16%;
+    top: 4%;
+    border-radius:10px;
+}
+#sousuo-photo{
+    background-color: #2886db;
+    border: solid 3px #2886db;
+    width: 50px;
+    height: 44px;
+    position: absolute;
+    right:189px;
+    top:32px;
+    border-radius:10px;
+}
+#denglu{
+    background-color:#2886db  ;
+    border: solid 3px #2886db;
+    width: 50px;
+    height: 44px;
+    position: absolute;
+    right: 60px;
+    top: 32px;
+    color: ghostwhite;
+    border-radius:10px;
+}
+#header1{
+    height: 38px;
+    width: 100%;
+    background-color: darkorange;
+    position: absolute;
+    top: 170px;
+}
+#header2{
+    height: 38px;
+    width: 10%;
+    float: left;
+}
+#header3{
+    height: 38px;
+    width: 15%;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+
+}
+#header4{
+    height: 38px;
+    width: 15%;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+}
+#header5{
+    height: 38px;
+    width: 15%;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+}
+#header6 {
+    height: 38px;
+    width: 45%;
+    float: left;
+}
+#header3 a:hover{
+    background-color: orangered;
+}
+#header4 a:hover {
+    background-color: orangered;
+}
+
+#header5 a:hover {
+    background-color: orangered;
+}
+#header3 a{
+    color: ghostwhite;
+}
+#header4 a{
+    color: ghostwhite;
+}
+#header5 a{
+    color: ghostwhite;
+}
+
+#table{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:32px;
+    left: 360px;
+    display:none;
+}
+#header4:hover + #table{
+    display: inline;
+    border: 1px;
+    position: absolute;
+    z-index: 100;
+}
+#table:hover{
+    display: inline;
+}
+#table a:hover{
+    color: orangered;
+}
+
+#wechat{
+    position: absolute;
+    top: 296px;
+    right: 200px;
+    width: 300px;
+    height: 300px;
+}
+.video{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+#shipin{
+    position: absolute;
+    top: 675px;
+    left: 150px;
+    font-size: 25px;
+    color: gray;
+}
+.content{
+    position: absolute;
+    width: 960px;
+    height: 764px;
+    top: 800px;
+    left: 100px;
+}
+.mj{
+    width: 200px;
+    height: 190px;
+    margin: 5px 5px 5px 5px;
+    box-shadow: gray;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+}
+.footer1{
+    position: relative;
+    top: 900px;
+    width: 100%;
+    border-top-color: orange;
+}
+.footer2 {
+
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.footer3{
+    width: 80%;
+    height: 100px;
+    margin-top: -180px;
+    margin-left: 300px;
+}
+.footer1.footer2.footer3 a link{
+    color: orangered;
+}
+.footer4{
+    width: 80%;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+.footer5{
+    width: 80%;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -150px;
+    color: black;
+}
+.footer3 a{
+    color: orangered;
+}
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+.box{
+    width: 600px;
+    height: 339px;
+    border: 1px;
+    solid: #aa3515;
+    left: 50px;top: 250px;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
+.tupian{
+    width: 600px;
+    height: 339px;
+    cursor: pointer;
+    display:block;
+}
+
+
+.box ol{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+.box ol li{
+    float: left;
+    width: 20px;height: 20px;
+    background-color: #8d8cff;
+    margin: 3px 3px 1px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px #aaa;
+    border-radius: 50%;
+}
+.box ol li.lunbotu{
+    background-color: #66afe9;
+}
